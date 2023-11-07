@@ -10,12 +10,12 @@
 
 ## Attachments
 
-body:
-  - type: textarea
-    id: attachments
-    attributes:
-      label: "Attachments"
-      description: Please add associated attachments (if any)
-      placeholder: Please add associated attachments (if any)
-    validations:
-      required: false
+
+- type: textarea
+  id: attachments
+  attributes:
+    label: "Attachments"
+    description: Please add associated attachments (if any)
+    placeholder: Please add associated attachments (if any)
+  validations:
+    required: false
